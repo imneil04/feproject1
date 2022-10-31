@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.branchheader {
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    background-size: cover;
+    background-image: url('../images/branchheaderpic-unsplash.jpg');
+    background-position: center;
+    color: white;
+}
+
+.branchwrapper {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    padding: 15px;
+}
+
+
+.branchcol {
+    height: 50vh;
+    text-align: center;
+    padding: 25px;
+    margin: 10px;
+}
+
+.branchinfo {
+    text-align: left;
+    margin-top: 2%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.branchtitle {
+   display: block;
+   text-align: center;
+   margin-top: 3%;
+}
+
+.branchsl {
+    display: block;
+    text-align: left;
+    margin: 8%;
+    font-weight: 300;
+}
+
+.branchsl:hover {
+    background-color: #000000;
+    cursor: pointer;
+}
+
+/*Google fonts (styles)*/
+
+h1 {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Images sizes*/
+.bcities {
+    width: 210px; 
+    border-radius: 20px;
+}
+
+#edm {
+    width: 210px; 
+    height: 140px;
+    border-radius: 20px;
+}
+
+.branchcol:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+/*responsive CSS*/
+@media (max-width: 890px) {
+    .branchwrapper {
+        flex-direction: column;
+    }
+}

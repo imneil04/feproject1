@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.aboutusheader {
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    background-image: url('../images/mttpic-unsplash.jpg');
+}
+
+.aboutusl {
+    display: block;
+    text-align: left;
+    margin: 8%;
+    font-weight: 300;
+}
+
+.aboutusl:hover {
+    background-color: #000000;
+}
+
+.aboutuswrapper1 {
+    display: block;
+    flex-wrap: nowrap;
+    text-align: center;
+    margin: 15px;
+    padding: 20px;
+ 
+}
+
+.aboutuswrapper2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.aboutuswrapper3 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+}
+
+.aboutuscol {
+    height: 90vh;
+    margin: 10px;
+    padding: 25px;
+}
+
+.ableftcol  {
+    margin-top: 4%;
+}
+
+.abmidcol {
+    margin: 2%;
+}
+
+.abrightcol {
+    margin-top: 4%;
+}
+
+
+.auinfo {
+    margin: 5%;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.abdesc {
+    margin: 15px;
+    padding: 20px;
+}
+
+.uicon {
+    margin: 15px;
+    padding: 15px;
+}
+
+/*Google fonts (styles) */
+
+h1 {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+/*Animation CSS etc*/
+.aboutuscol:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+/*Responsive CSS*/
+@media (max-width: 972px) {
+    .aboutuswrapper2 {
+        flex-direction: column;
+    }
+
+    .aboutuswrapper3 {
+        flex-direction: column;
+    }
+
+    .imgph {
+        margin: 50px;
+    }
+
+}
+
+
