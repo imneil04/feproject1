@@ -17,7 +17,7 @@ Note: <br />
 -Meet the team (about us) page  <br />
 -Contact Us page  <br />
 
-Additional 9 Footer links that can navigate to other pages.  <br />
+Additional Footer links that can be modified to navigate to other pages.  <br />
 
 1.Website is cross-browser compatible (Google, Edge, Firefox). Was tested and perfectly runs fine.  <br />
 2.Website is responsive. Adapts to screen breakpoint changes (mobile, tablet, laptop, or pc).  <br />
